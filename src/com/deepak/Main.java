@@ -8,8 +8,7 @@ public class Main {
 	// write your code here
         JFrame frame = new JFrame("Hello, Java");
         frame.setSize(300, 300);
-        JLabel label = new JLabel("Hello, Java!", JLabel.CENTER);
-        frame.add(label);
+        frame.add(new HelloComponent());
         frame.setVisible(true);
     }
 }
